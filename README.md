@@ -1,29 +1,24 @@
-# bt3103-project2
+# LaunchPad: internship recruitment & feedback platform
 
-This template should help get you started developing with Vue 3 in Vite.
+A full-stack web app where students track their internship applications and leave structured reviews of employers, and recruiters see aggregated feedback trends. Built in 8 weeks by a 6-person team for NUS BT3103 (Application Systems Development) and used by 50+ students.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Email sign-in and personalised onboarding (Firebase Authentication)
+- Application-tracking dashboard for students
+- 5-star ratings plus free-text feedback on employers, stored in Firestore
+- AI-generated summaries and sentiment (OpenAI API) that turn free-text reviews into employer scorecards for 20+ employers
+- Recruiter-side analytics on hiring and feedback trends
 
-## Customize configuration
+## Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Vue 3 · Vite · Firebase Authentication & Firestore · Firebase Hosting · OpenAI API
 
-## Project Setup
+## Run locally
 
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Requires your own Firebase project config and an OpenAI API key.
